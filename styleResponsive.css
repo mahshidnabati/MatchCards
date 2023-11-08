@@ -1,0 +1,37 @@
+@media (max-width: 800px) {
+    /* Styles for screens with a maximum width of 600px */
+    #items.D2 li {
+        width: 35vw;
+        height: 35vw;
+    }
+    #items.D4 li {
+        width: 18vw;
+        height: 18vw;
+    }
+    #items.D6 li {
+        width: 12vw;
+        height: 12vw;
+    }
+    footer{
+        height: 5vw;
+        padding: 4%;
+        font-size: 5vw;
+    }
+    #start, #end, #paused {
+        width: 60%;
+        padding: 5%;
+    }
+    select{
+        width: 80%;
+        margin: 5%;
+        font-size: 5vw;
+    }
+}
+@media (max-width: 700px) {
+    nav > div:nth-child(1),nav > div:nth-child(2) li,nav > div:nth-child(2) div {
+        font-size: 5vw;
+        padding: 3%;
+    }
+    
+  }
+
